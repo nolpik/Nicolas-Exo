@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 
 public class ScriptDuPeuple : MonoBehaviour
@@ -12,5 +13,11 @@ public class ScriptDuPeuple : MonoBehaviour
     void Update()
     {
         
+    }
+
+    private void SendMessagePlouf(String message)
+    {
+        message = "Plouf";
+        Debug.Log(message);
     }
 }
