@@ -2,15 +2,13 @@ using UnityEngine;
 
 public class ScriptDuPeuple : MonoBehaviour
 {
-  
-    [SerializeField] private int CacaProut = 5;
-    
+    // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        Debug.Log(CacaProut);
+        [SerializeField] private float Cuteness = 10f;
     }
 
-   
+    // Update is called once per frame
     void Update()
     {
         
